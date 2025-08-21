@@ -18,12 +18,12 @@
     "ctaButtonTextResponsive": "Contato"
   },
   "hero": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir <span class=\"text-primary font-bold\">A_Definir</span>",
-    "subtitle": "A_Definir",
-    "ctaButtonText": "A_Definir",
+    "miniTag": "ADVOGADO EM CORNÉLIO PROCÓPIO - PR",
+    "title": "Seu caso é só mais um… <span class=\"text-primary font-bold\">ou o mais importante?</span>",
+    "subtitle": "Descubra como transformar incertezas em resultados reais com atendimento direto e sem enrolação.",
+    "ctaButtonText": "Prove que seu caso importa",
     "obsHero": {
-      "text": "A_Definir"
+      "text": "Atendimento para todo Brasil via vídeo chamada."
     }
   },
   "features": {
