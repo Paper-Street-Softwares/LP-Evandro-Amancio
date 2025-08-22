@@ -10,6 +10,7 @@ import {
   HelpCircle,
   AlignJustify,
   MapPin,
+  FileText,
 } from "lucide-react";
 import { Link as ScrollLink } from "react-scroll";
 import { Link as RouterLink } from "react-router-dom";
@@ -44,8 +45,10 @@ export default function SidebarSocial({ colorMode, mode = "blog" }) {
     <HomeIcon />,
     <UserSearch />,
     <ServerIcon />,
+    <FileText />,
     <HelpCircle />,
-    <MapPin />,
+
+    // <MapPin />,
   ];
 
   return (

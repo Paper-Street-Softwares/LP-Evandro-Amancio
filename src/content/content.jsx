@@ -553,8 +553,8 @@ const content = {
       subtitle: "",
       img: imgSteps,
       labelCards: "Ver mais",
-      label: "Clique aqui para ver todas as matérias",
-      blogLink: "A_Definir", //sem "https://"
+      label: "A_Definir",
+      blogLink: "evandroamancio.wordpress.com", //sem "https://"
     },
     faq: {
       miniTag: "TIRE SUAS DÚVIDAS",
