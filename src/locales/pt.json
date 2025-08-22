@@ -27,51 +27,51 @@
     }
   },
   "features": {
-    "miniTag": "A_Definir",
-    "title": "A_Definir",
-    "subtitle": "A_Definir",
+    "miniTag": "ÁREAS DE ATUAÇÃO",
+    "title": "Soluções jurídicas personalizadas para cada necessidade",
+    "subtitle": "Especialização em diversas áreas jurídicas.",
     "card1": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Família e Sucessões",
+      "subtitle": "Divórcio (judicial e extrajudicial), Inventário e partilha de bens, Pensão alimentícia (execução, revisão, exoneração), Guarda de filhos e regulamentação de visitas.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir"
+      "buttonLabel": "Saiba mais"
     },
     "card2": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Direito Civil",
+      "subtitle": "Cobranças judiciais e extrajudiciais, Usucapião e regularização de imóveis, Indenizações por danos morais e materiais, Revisão e anulação de contratos.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir"
+      "buttonLabel": "Saiba mais"
     },
     "card3": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Saúde (Planos e SUS)",
+      "subtitle": "Ações contra planos de saúde (negativa de tratamento, cirurgia, medicamento, home care, reajustes abusivos) e Demandas contra o SUS para fornecimento de medicamentos e procedimentos médicos.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir"
+      "buttonLabel": "Saiba mais"
     },
     "card4": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Seguro Agrícola",
+      "subtitle": "Indenização por perda de safra negada (seca, geada, granizo), Contestação de cláusulas abusivas em apólices rurais, Cobrança judicial contra seguradoras.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir",
+      "buttonLabel": "Saiba mais",
       "servicesButton": "A_Definir"
     },
     "card5": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Bancário e Financeiro",
+      "subtitle": "Fraudes bancárias e golpes digitais (cartões clonados, empréstimos não contratados), Revisão de financiamentos e contratos abusivos, Contestação de tarifas e serviços não contratados.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir"
+      "buttonLabel": "Saiba mais"
     },
     "card6": {
-      "title": "A_Definir",
-      "subtitle": "A_Definir",
+      "title": "Tributário",
+      "subtitle": "Recuperação de tributos pagos a maior no Simples Nacional, Exclusão de ICMS-ST e produtos monofásicos da base de cálculo, Defesas administrativas e judiciais contra autuações fiscais, Planejamento tributário para empresários e Isenções de IRPF.",
       "description": "A_Definir",
       "buttonLabelModal": "A_Definir",
-      "buttonLabel": "A_Definir"
+      "buttonLabel": "Saiba mais"
     }
   },
   "maps": {

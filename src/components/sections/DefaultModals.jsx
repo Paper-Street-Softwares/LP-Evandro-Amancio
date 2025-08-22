@@ -39,7 +39,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
       <SectionWrapper>
         <div className="flex flex-col items-center w-full justify-evenly tablet1:flex-row">
           <div className="flex flex-wrap items-start justify-center w-full gap-[40px]">
-            {[1, 2, 3, 4].map((num) => {
+            {[1, 2, 3, 4, 5, 6].map((num) => {
               const card = content.texts.features[`card${num}`]; // Mantém ícones e imagens do content
               return (
                 <MotionDivDownToUp
