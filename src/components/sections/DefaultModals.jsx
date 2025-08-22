@@ -53,7 +53,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                     className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                     colorMode={colorMode}
                   />
-                  <Button
+                  {/* <Button
                     size="small"
                     className="bg-darker"
                     labelColor="text-white"
@@ -76,7 +76,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                         <path d="M4 4v7a4 4 0 0 0 4 4h12" />
                       </svg>
                     }
-                  />
+                  /> */}
                 </MotionDivDownToUp>
               );
             })}
