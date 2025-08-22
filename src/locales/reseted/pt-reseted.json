@@ -89,17 +89,17 @@
     "subtitle": "A_Definir",
     "buttonModalLabelAbout": "Continuar lendo",
     "paragraph": "A_Definir",
-    "modal": "a_Definir",
+    "modal": "A_Definir <br/><br/> A_Definir <br/><br/> A_Definir",
     "ctaButtonAriaLabel": "",
     "ctaButtonText": "Entre em contato",
     "aboutSocial": {
       "miniTag": "A_Definir",
       "title": "A_Definir",
       "subtitle": "A_Definir",
-      "labelInstagram": "A_Definir",
-      "labelFacebook": "A_Definir",
-      "labelLinkedin": "A_Definir",
-      "labelX": "A_Definir"
+      "labelInstagram": "Siga-me no Instagram",
+      "labelFacebook": "Siga-me no Facebook",
+      "labelLinkedin": "Siga-me no LinkedIn",
+      "labelX": "Siga-me no X"
     }
   },
   "ctaSecondary": {
