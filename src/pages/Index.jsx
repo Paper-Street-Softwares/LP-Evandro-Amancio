@@ -20,7 +20,7 @@ export default function Index() {
   const showUnderConstruction = false;
 
   // Altere esta constante para: 'default', 'light' ou 'dark'
-  const colorMode = "default";
+  const colorMode = "light";
   const { t, i18n } = useTranslation();
 
   const changeLanguage = (lng) => {
@@ -69,15 +69,15 @@ export default function Index() {
         button={false}
         modalWithCards={false}
         paragraphs={false}
-        sixCards={true}
-        paragraphsModal={false}
+        sixCards={false}
+        paragraphsModal={true}
       />
 
       <About modal={true} showGallery={false} colorMode={colorMode} />
-      {/* <AboutInstagram colorMode={colorMode} socialPrint={true} /> */}
+      <AboutInstagram colorMode={colorMode} socialPrint={true} />
       <CtaSecondary />
       <Steps colorMode={colorMode} />
-      {/* <BlogPosts /> */}
+      <BlogPosts />
       <Faq colorMode={colorMode} />
       {/* <Maps colorMode={colorMode} /> */}
       <FooterSocial colorMode={colorMode} addres={true} obs={false} />
