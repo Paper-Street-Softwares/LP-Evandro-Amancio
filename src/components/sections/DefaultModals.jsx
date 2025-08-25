@@ -17,7 +17,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
     default: "squares",
   };
   const textClasses = {
-    dark: "text-white",
+    dark: "text-primary",
     light: "text-black",
     default: "bg-bgSectionDark",
   };
