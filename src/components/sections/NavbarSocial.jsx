@@ -88,8 +88,8 @@ export default function NavbarSocial({ colorMode, mode }) {
     }
     if (colorMode === "dark") {
       return scrolling
-        ? "bg-gradient-to-b from-black to-bgFixedDark shadow-lg border-b-[1px] border-primary"
-        : "bg-gradient-to-b from-black to-bgFixedDark border-b-[1px] border-none";
+        ? "bg-gradient-to-b from-bgFixedDark to-bgSectionDark shadow-lg border-b-[1px] border-primary"
+        : "bg-gradient-to-b from-bgFixedDark to-bgFixedDark border-b-[1px] border-none";
     }
     // default
     return scrolling
@@ -117,8 +117,8 @@ export default function NavbarSocial({ colorMode, mode }) {
               alt={content.texts.navbar.logo.alt}
               className={`bg-transparent ${
                 scrolling
-                  ? " w-[20%] phone3:w-[20%] tablet1:w-[25%] tablet2:w-[25%] desktop1:w-[30%] desktop2:w-[30%]"
-                  : "my-[20px] w-[35%] phone2:w-[35%] phone3:w-[30%] tablet1:w-[35%] tablet2:w-[35%] desktop1:w-[40%] desktop2:w-[40%]"
+                  ? " w-[20%] phone3:w-[20%] tablet1:w-[25%] tablet2:w-[20%] desktop1:w-[20%] desktop2:w-[20%]"
+                  : " w-[35%] phone2:w-[25%] phone3:w-[30%] tablet1:w-[35%] tablet2:w-[30%] desktop1:w-[30%] desktop2:w-[30%]"
               } transition-all duration-1000`}
             />
           </ScrollLink>

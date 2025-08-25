@@ -23,7 +23,7 @@ function BlogPosts() {
 
   return (
     <div>
-      <SectionArea className="bg-bgSectionDark" id="blog" paddingbot={false}>
+      <SectionArea className="bg-bgSectionDark" id="blog" paddingbot={true}>
         <SectionWrapper>
           <SectionHeader
             className="text-center"
@@ -31,8 +31,8 @@ function BlogPosts() {
             sectionHeaderTitle={t("blog.title")}
             sectionHeaderSubtitle={t("blog.subtitle")}
             color=""
-            titleColorSet="text-black"
-            subtitleColorSet="text-black"
+            titleColorSet="text-white"
+            subtitleColorSet="text-white"
             type=""
           />
 
@@ -69,7 +69,7 @@ function BlogPosts() {
           </ul>
 
           <MotionDivDownToUp>
-            <Paragraphs className="text-center text-black underline transition hover:scale-110">
+            <Paragraphs className="text-center text-white underline transition hover:scale-110">
               <a
                 href={`https://${content.texts.blog.blogLink}`}
                 target="_blank"

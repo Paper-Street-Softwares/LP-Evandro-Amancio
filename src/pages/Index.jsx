@@ -20,7 +20,7 @@ export default function Index() {
   const showUnderConstruction = false;
 
   // Altere esta constante para: 'default', 'light' ou 'dark'
-  const colorMode = "light";
+  const colorMode = "dark";
   const { t, i18n } = useTranslation();
 
   const changeLanguage = (lng) => {
