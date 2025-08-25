@@ -31,8 +31,8 @@ function BlogPosts() {
             sectionHeaderTitle={t("blog.title")}
             sectionHeaderSubtitle={t("blog.subtitle")}
             color=""
-            titleColorSet="text-white"
-            subtitleColorSet="text-white"
+            titleColorSet="text-primary"
+            subtitleColorSet="text-primary"
             type=""
           />
 

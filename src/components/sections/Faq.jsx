@@ -20,7 +20,7 @@ export default function Faq({ colorMode }) {
     default: "squares",
   };
   const textClasses = {
-    dark: "text-white",
+    dark: "text-primary",
     light: "text-black",
     default: "text-black",
   };

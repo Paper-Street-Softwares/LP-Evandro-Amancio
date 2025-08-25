@@ -19,7 +19,7 @@ export default function AboutInstagram({ socialPrint, colorMode }) {
     default: "bg-bgSectionDark",
   };
   const textClasses = {
-    dark: "text-white",
+    dark: "text-primary",
     light: "text-black",
     default: "text-white",
   };

@@ -24,13 +24,14 @@ export default function About({
     default: "bg-bgSectionDark",
   };
   const textClasses = {
-    dark: "text-white",
+    dark: "text-primary",
     light: "text-black",
     default: "text-white",
   };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const titleColor = textClasses[colorMode] || textClasses.default;
-  const subtitleColor = colorMode === "light" ? "text-black/80" : "text-white";
+  const subtitleColor =
+    colorMode === "light" ? "text-black/80" : "text-primary";
 
   // Puxando apenas textos via i18n
   const aboutText = t("about", { returnObjects: true });
