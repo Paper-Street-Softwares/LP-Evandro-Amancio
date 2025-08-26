@@ -19,7 +19,7 @@
   },
   "hero": {
     "miniTag": "ADVOGADO EM CORNÉLIO PROCÓPIO - PR",
-    "title": "Seu caso é só mais um… <span class=\"text-primary font-bold\">ou o mais importante?</span>",
+    "title": "Seu caso é só mais um… <span class=\"text-white font-bold\">ou o mais importante?</span>",
     "subtitle": "Descubra como transformar incertezas em resultados reais com atendimento direto e sem enrolação.",
     "ctaButtonText": "Prove que seu caso importa",
     "obsHero": {
@@ -103,7 +103,7 @@
     }
   },
   "ctaSecondary": {
-    "title": "<span class=\"text-primary font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-primary font-bold\">estamos te esperando.</span>",
+    "title": "<span class=\"text-white font-bold\">Dúvidas?</span> Entre em contato conosco para podermos lhe ajudar, <span class=\"text-white font-bold\">estamos te esperando.</span>",
     "subtitleDireitaPartes": ["E N T R E", "E M", "C O N T A T O", "V I A"],
     "titleDireita": "WhatsApp",
     "ctaButtonText": "Entre em Contato"

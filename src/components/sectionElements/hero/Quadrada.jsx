@@ -14,7 +14,7 @@ export default function Quadrada({ appDownloadButtons, colorMode }) {
   };
 
   const bgGradient = backgroundClasses[colorMode] || backgroundClasses.default;
-  const titleColor = colorMode === "light" ? "text-black" : "text-primary";
+  const titleColor = colorMode === "light" ? "text-black" : "text-white";
   const subtitleColor = colorMode === "light" ? "text-black" : "text-primary";
   const obsTextColor = colorMode === "light" ? "text-black" : "text-primary";
   const descriptionColor = colorMode === "light" ? "text-black" : "text-primary";

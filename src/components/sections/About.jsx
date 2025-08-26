@@ -58,7 +58,7 @@ export default function About({
             sectionHeaderSubtitle={aboutText.subtitle}
             color={colorMode}
             type="article"
-            titleColorSet={titleColor}
+            titleColorSet="text-white"
             subtitleColorSet={subtitleColor}
           />
           <MotionDivDownToUp>

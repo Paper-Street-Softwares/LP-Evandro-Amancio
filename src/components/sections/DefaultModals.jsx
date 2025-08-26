@@ -32,7 +32,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
         miniTitle={t("features.miniTag")}
         sectionHeaderTitle={t("features.title")}
         sectionHeaderSubtitle={t("features.subtitle")}
-        titleColorSet={textClass}
+        titleColorSet="text-white"
         subtitleColorSet={textClass}
       />
 
@@ -44,7 +44,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
               return (
                 <MotionDivDownToUp
                   key={num}
-                  className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] desktop1:w-[28%] desktop2:w-[25%]"
+                  className="flex flex-col items-center justify-center px-[10px] py-[20px] rounded-md bg-buttonColor tablet1:w-[46.5%] desktop1:w-[28%] desktop2:w-[25%]"
                 >
                   <IconButtonFeatureCard
                     icon={card.icon} // ícone do content
