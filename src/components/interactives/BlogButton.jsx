@@ -37,8 +37,8 @@ export default function Button({
       className={`flex ${className} ${sizeFeatures} flex-row items-center justify-around transition ${color} hover:scale-110`}
     >
       <div className={`flex items-center text-center ${gap} min-h-[24px]`}>
-        <div className="text-white">{icon}</div>
-        <p className={`flex items-center text-white ${textclassName}`}>{label}</p>
+        <div className="text-black">{icon}</div>
+        <p className={`flex items-center text-black ${textclassName}`}>{label}</p>
       </div>
     </a>
   );

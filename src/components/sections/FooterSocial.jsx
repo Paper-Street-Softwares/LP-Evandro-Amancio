@@ -23,7 +23,7 @@ export default function FooterSocial({ colorMode, addres, obs, mode }) {
   switch (colorMode) {
     case "dark":
       footerBackground = "bg-bgFixedDark";
-      textColor = "text-white";
+      textColor = "text-primary";
       break;
     case "light":
       footerBackground = "bg-bgFixedLight";

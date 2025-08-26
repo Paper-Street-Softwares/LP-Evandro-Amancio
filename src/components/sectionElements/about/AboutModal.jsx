@@ -14,7 +14,7 @@ export default function AboutModal() {
     setModalTitle(t("about.title"));
 
     setModalContent(
-      <div className="text-paragraph3">
+      <div className="text-paragraph3 bg-bgSectionDark text-primary">
         <p className="mb-[20px]">
           <Trans i18nKey="about.subtitle" />
         </p>
@@ -27,7 +27,7 @@ export default function AboutModal() {
             label={t("about.ctaButtonText")}
             animation={false}
             className="hover:scale-105 "
-            color="bg-bgSectionDark"
+            color="bg-buttonColor"
             textclassName="text-white"
             icon={
               <svg
@@ -62,9 +62,9 @@ export default function AboutModal() {
       />
 
       <Dialog
-        className="font-secondFont"
-        closeIcon={<X size={20} />}
-        header={modalTitle}
+        className="font-secondFont bg-buttonColor [&_.p-dialog-content]:bg-bgSectionDark [&_.p-dialog-header]:bg-bgSectionDark"
+        closeIcon={<X size={20} color="white" />}
+        header={<span className="text-white">{modalTitle}</span>}
         visible={visible}
         onHide={() => setVisible(false)}
         style={{ width: "50vw" }}

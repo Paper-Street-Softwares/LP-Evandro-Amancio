@@ -42,7 +42,7 @@ export default function AboutInstagram({ socialPrint, colorMode }) {
               sectionHeaderTitle={t("about.aboutSocial.title")}
               sectionHeaderSubtitle={t("about.aboutSocial.subtitle")}
               type="article"
-              titleColorSet={textClass}
+              titleColorSet="text-white"
               subtitleColorSet={textClass}
             />
           </MotionDivDownToUp>

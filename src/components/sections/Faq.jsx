@@ -35,7 +35,7 @@ export default function Faq({ colorMode }) {
         miniTitle={t("faq.miniTag")}
         sectionHeaderTitle={t("faq.title")}
         sectionHeaderSubtitle={t("faq.subtitle")}
-        titleColorSet={titleColor}
+        titleColorSet="text-white"
         subtitleColorSet={titleColor}
       />
       <SectionWrapper className="flex justify-center">
