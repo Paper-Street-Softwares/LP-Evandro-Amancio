@@ -35,7 +35,7 @@ export default function HowItWorksCard({
         {title}
       </h1>
       <p
-        className={`text-[16px] text-center desktop1:text-left w-full ${textColor} ${textOpacity}`}
+        className={`text-[16px] text-center desktop1:text-left w-full text-primary ${textOpacity}`}
       >
         {description}
       </p>
@@ -50,7 +50,7 @@ export default function HowItWorksCard({
       <h1 className="text-[20px] text-colorWhite font-bold mb-[24px]">
         {title}
       </h1>
-      <p className="text-[16px] text-colorWhite opacity-70 text-center desktop1:text-left w-full">
+      <p className="text-[16px] text-colorWhite opacity-70 text-center text-primary desktop1:text-left w-full">
         {description}
       </p>
 
